@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hourly to Salary Calculator After Taxes | 2026 US</title>
+  <meta name="description" content="Free 2026 US hourly to salary calculator after taxes. Estimate your net annual salary, biweekly paycheck, federal tax, FICA, and state deductions instantly.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://paycheckclear.com/hourly-to-salary-calculator-after-taxes">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="PaycheckClear">
+  <meta property="og:title" content="Hourly to Salary Calculator After Taxes | 2026 US">
+  <meta property="og:description" content="Free 2026 US hourly to salary calculator after taxes. Estimate your net annual salary, biweekly paycheck, federal tax, FICA, and state deductions instantly.">
+  <meta property="og:url" content="https://paycheckclear.com/hourly-to-salary-calculator-after-taxes">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hourly to Salary Calculator After Taxes | 2026 US">
+  <meta name="twitter:description" content="Convert your US hourly wage to annual salary and biweekly take-home pay using 2026 federal tax brackets, FICA, and state tax estimates.">
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Crect x='10' y='10' width='44' height='14' rx='4' fill='%23059669'/%3E%3Ctext x='32' y='21' text-anchor='middle' font-family='system-ui,sans-serif' font-size='11' font-weight='700' fill='%23ffffff'%3E$%3C/text%3E%3Crect x='10' y='30' width='12' height='10' rx='3' fill='%23334155'/%3E%3Crect x='26' y='30' width='12' height='10' rx='3' fill='%23334155'/%3E%3Crect x='42' y='30' width='12' height='10' rx='3' fill='%23059669'/%3E%3Crect x='10' y='44' width='12' height='10' rx='3' fill='%23334155'/%3E%3Crect x='26' y='44' width='12' height='10' rx='3' fill='%23334155'/%3E%3Crect x='42' y='44' width='12' height='10' rx='3' fill='%23059669'/%3E%3C/svg%3E">
+
+  <!-- Schema.org JSON-LD: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PaycheckClear Hourly to Salary Calculator After Taxes",
+    "url": "https://paycheckclear.com/hourly-to-salary-calculator-after-taxes",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "All",
+    "browserRequirements": "Requires JavaScript",
+    "inLanguage": "en-US",
+    "description": "A 2026 US hourly to salary calculator after taxes and biweekly paycheck calculator that estimates federal income tax, FICA (Social Security and Medicare), state income tax, and pre-tax deductions in real time.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Real-time hourly wage to annual salary conversion",
+      "2026 US federal income tax brackets and standard deduction",
+      "Social Security (6.2%) and Medicare (1.45%) FICA breakdown",
+      "US state income tax presets and custom tax rate input",
+      "Overtime (1.5x) and unpaid weeks off adjustments",
+      "401(k) and health insurance pre-tax deduction modeling"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does unpaid vacation or time off affect my annual salary?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hourly workers are only paid for hours on the clock unless they have paid time off (PTO). Taking two unpaid weeks off lowers your working year from 52 weeks to 50 weeks, reducing a $25/hour full-time income from $52,000 to $50,000 before taxes. Adjusting the Weeks Worked Per Year field updates both your gross total and your estimated tax brackets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is a biweekly paycheck different from a semi-monthly paycheck?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Biweekly pay happens every two weeks, producing 26 paychecks per year (including two months with three paychecks). Semi-monthly pay happens twice a month on fixed dates like the 1st and 15th, producing 24 slightly larger paychecks per year. Even though each biweekly check is about 7.7% smaller than a semi-monthly check, the annual take-home pay is identical."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does working overtime push all of my income into a higher tax bracket?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The US uses a progressive federal tax system, so only the extra dollars above a bracket threshold are taxed at the higher rate. Your paycheck withholding software may temporarily withhold more federal tax on a heavy overtime check because it assumes you earn that amount every pay period, but any excess withholding comes back when you file your tax return."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do 401(k) contributions and health insurance affect my take-home pay?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pre-tax traditional 401(k) contributions lower your taxable income for federal and most state income taxes, though they are still subject to Social Security and Medicare (FICA) taxes. Employer-sponsored pre-tax health insurance premiums under a Section 125 plan reduce federal, state, and FICA taxable wages, so a $200 monthly premium usually shrinks your net pay by less than $200."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why might my real paycheck differ slightly from this net pay estimator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Actual paystubs can include local city or county income taxes, state disability or paid family leave withholdings (such as CA SDI or NY PFL), Roth 401(k) post-tax contributions, HSA/FSA deductions, tax credits for dependents, or custom Form W-4 adjustments. This estimator gives a clean baseline using 2026 standard deductions and single-job federal withholding rules."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-canvas: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --bg-emerald-soft: #ecfdf5;
+      --border-hairline: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --accent-emerald: #059669;
+      --accent-emerald-dark: #047857;
+      --accent-navy: #0f172a;
+      --accent-blue: #2563eb;
+      --accent-amber: #d97706;
+      --accent-slate: #64748b;
+      --radius-lg: 14px;
+      --radius-md: 10px;
+      --radius-sm: 7px;
+      --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.05), 0 4px 16px rgba(15, 23, 42, 0.03);
+      --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--text-primary);
+      background-color: var(--bg-canvas);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Skip Link */
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      background: var(--accent-navy);
+      color: #ffffff;
+      padding: 10px 16px;
+      font-weight: 600;
+      text-decoration: none;
+      z-index: 100;
+    }
+
+    .skip-link:focus {
+      left: 16px;
+      top: 16px;
+      border-radius: var(--radius-sm);
+    }
+
+    /* Top Navigation Bar (3-zone contract) */
+    .site-header {
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 60px;
+    }
+
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.0625rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .brand-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 7px;
+      background: var(--accent-navy);
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9375rem;
+      flex-shrink: 0;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .site-nav a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      white-space: nowrap;
+      flex-shrink: 0;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: color var(--transition-fast), border-color var(--transition-fast);
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus-visible {
+      color: var(--text-primary);
+      border-bottom-color: var(--accent-emerald);
+      outline: none;
+    }
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #ffffff;
+      background: var(--accent-navy);
+      border: 1px solid var(--accent-navy);
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+      cursor: pointer;
+      transition: background-color var(--transition-fast), transform var(--transition-fast);
+    }
+
+    .header-cta:hover {
+      background: #1e293b;
+    }
+
+    .header-cta:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: 2px;
+    }
+
+    /* Compact Page Intro (keeps calculator immediately above the fold) */
+    .page-intro {
+      padding: 18px 0 14px;
+    }
+
+    .page-intro h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.5rem, 2.4vw, 1.95rem);
+      font-weight: 800;
+      line-height: 1.18;
+      letter-spacing: -0.025em;
+      color: var(--text-primary);
+      text-wrap: balance;
+    }
+
+    .intro-lead {
+      margin: 0;
+      max-width: 78ch;
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.48;
+    }
+
+    /* Main 2-Column Calculator Grid */
+    .calculator-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
+      gap: 22px;
+      align-items: start;
+      padding-bottom: 36px;
+    }
+
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-card);
+      padding: 20px 22px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .card-title {
+      margin: 0;
+      font-size: 1.03125rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+    }
+
+    .card-meta {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* Form Controls */
+    .form-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .field-row-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .field-row-state {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(0, 0.85fr);
+      gap: 12px;
+    }
+
+    .field-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    label, .group-label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .field-hint {
+      font-size: 0.78125rem;
+      color: var(--text-muted);
+    }
+
+    .input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-prefix,
+    .input-suffix {
+      position: absolute;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .input-prefix {
+      left: 12px;
+    }
+
+    .input-suffix {
+      right: 12px;
+    }
+
+    input[type="number"],
+    select {
+      width: 100%;
+      height: 40px;
+      padding: 7px 12px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-sm);
+      font-variant-numeric: tabular-nums;
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      padding-right: 34px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%23475569' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      background-size: 16px 16px;
+      cursor: pointer;
+    }
+
+    .has-prefix input[type="number"] {
+      padding-left: 28px;
+    }
+
+    .has-suffix input[type="number"] {
+      padding-right: 44px;
+    }
+
+    .has-suffix-short input[type="number"] {
+      padding-right: 30px;
+    }
+
+    input[type="number"]:hover,
+    select:hover {
+      border-color: #94a3b8;
+    }
+
+    input[type="number"]:focus,
+    select:focus {
+      outline: none;
+      border-color: var(--accent-emerald);
+      box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.14);
+    }
+
+    /* Preset Buttons */
+    .preset-row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 6px;
+      margin-top: 2px;
+    }
+
+    .preset-btn {
+      width: 100%;
+      height: 34px;
+      padding: 0 4px;
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      color: var(--text-secondary);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+    }
+
+    .preset-btn:hover {
+      background: #e2e8f0;
+      color: var(--text-primary);
+    }
+
+    .preset-btn[aria-pressed="true"] {
+      background: var(--accent-navy);
+      border-color: var(--accent-navy);
+      color: #ffffff;
+    }
+
+    .preset-btn:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: 2px;
+    }
+
+    /* Overtime Toggle Row */
+    .overtime-panel {
+      background: var(--bg-canvas);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+    }
+
+    .toggle-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .toggle-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .toggle-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .toggle-sub {
+      font-size: 0.78125rem;
+      color: var(--text-muted);
+    }
+
+    .switch-input {
+      position: relative;
+      appearance: none;
+      -webkit-appearance: none;
+      width: 44px;
+      height: 24px;
+      border-radius: 999px;
+      background: #cbd5e1;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: background-color var(--transition-fast);
+    }
+
+    .switch-input::after {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.2);
+      transition: transform var(--transition-fast);
+    }
+
+    .switch-input:checked {
+      background: var(--accent-emerald);
+    }
+
+    .switch-input:checked::after {
+      transform: translateX(20px);
+    }
+
+    .switch-input:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: 2px;
+    }
+
+    .overtime-fields {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border-hairline);
+    }
+
+    .overtime-fields[hidden] {
+      display: none;
+    }
+
+    /* Form Section Divider */
+    .form-divider {
+      border: 0;
+      border-top: 1px solid var(--border-hairline);
+      margin: 2px 0;
+    }
+
+    .optional-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 0;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .optional-tag {
+      font-size: 0.78125rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    /* Utility Action Buttons */
+    .form-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-top: 4px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 42px;
+      padding: 0 18px;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    .btn-primary {
+      flex: 1;
+      background: var(--accent-emerald);
+      border: 1px solid var(--accent-emerald);
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-emerald-dark);
+      border-color: var(--accent-emerald-dark);
+    }
+
+    .btn-secondary {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      color: var(--text-secondary);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+    }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: 2px;
+    }
+
+    /* Results Dashboard */
+    .spotlight-box {
+      background: var(--bg-emerald-soft);
+      border: 1px solid #a7f3d0;
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin-bottom: 18px;
+    }
+
+    .spotlight-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .spotlight-label {
+      font-size: 0.84375rem;
+      font-weight: 600;
+      color: #065f46;
+      margin: 0 0 4px;
+    }
+
+    .spotlight-value {
+      margin: 0;
+      font-size: clamp(2rem, 3.2vw, 2.5rem);
+      font-weight: 800;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      color: var(--accent-emerald-dark);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .spotlight-annual {
+      text-align: right;
+    }
+
+    .spotlight-annual-label {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: #065f46;
+      margin: 0 0 2px;
+    }
+
+    .spotlight-annual-val {
+      margin: 0;
+      font-size: 1.375rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .spotlight-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(5, 150, 105, 0.18);
+      font-size: 0.8125rem;
+      color: #065f46;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .meta-sep {
+      color: #34d399;
+      user-select: none;
+    }
+
+    /* Pay Period Table */
+    .table-caption-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .section-subhead {
+      margin: 0;
+      font-size: 0.9375rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .pay-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-variant-numeric: tabular-nums;
+      margin-bottom: 14px;
+    }
+
+    .pay-table th {
+      text-align: left;
+      font-size: 0.78125rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .pay-table th.num,
+    .pay-table td.num {
+      text-align: right;
+    }
+
+    .pay-table td {
+      padding: 7px 10px;
+      font-size: 0.90625rem;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .pay-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .pay-table tr.row-highlight {
+      background: #f0fdf4;
+    }
+
+    .pay-table tr.row-highlight td {
+      font-weight: 700;
+    }
+
+    .pay-table td.net-col {
+      font-weight: 700;
+      color: var(--accent-emerald-dark);
+    }
+
+    .period-note {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--text-muted);
+    }
+
+    /* Visual Stacked Bar Chart */
+    .breakdown-section {
+      padding-top: 12px;
+      border-top: 1px solid var(--border-hairline);
+    }
+
+    .stacked-bar {
+      display: flex;
+      width: 100%;
+      height: 16px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: var(--bg-subtle);
+      margin: 12px 0 14px;
+    }
+
+    .bar-seg {
+      height: 100%;
+      transition: width 200ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .seg-net { background: var(--accent-emerald); }
+    .seg-fed { background: var(--accent-navy); }
+    .seg-fica { background: var(--accent-blue); }
+    .seg-state { background: var(--accent-amber); }
+    .seg-pretax { background: var(--accent-slate); }
+
+    .breakdown-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .breakdown-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      align-items: baseline;
+      gap: 12px;
+      font-size: 0.875rem;
+      padding: 4px 0;
+    }
+
+    .breakdown-item[hidden] {
+      display: none;
+    }
+
+    .breakdown-name {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .breakdown-sub {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      padding-left: 18px;
+      margin-top: 1px;
+    }
+
+    .breakdown-pct {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      text-align: right;
+      min-width: 48px;
+    }
+
+    .breakdown-amt {
+      font-weight: 600;
+      color: var(--text-primary);
+      text-align: right;
+      min-width: 92px;
+    }
+
+    .breakdown-amt.is-net {
+      color: var(--accent-emerald-dark);
+    }
+
+    /* Content Sections Below Calculator */
+    .content-section {
+      padding: 36px 0;
+      border-top: 1px solid var(--border-hairline);
+    }
+
+    .content-section h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.3125rem, 2.2vw, 1.625rem);
+      font-weight: 750;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      text-wrap: balance;
+    }
+
+    .section-lead {
+      margin: 0 0 22px;
+      max-width: 72ch;
+      color: var(--text-secondary);
+      font-size: 0.96875rem;
+    }
+
+    /* Quick Reference Table */
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-card);
+    }
+
+    .ref-table {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .ref-table th {
+      text-align: left;
+      padding: 13px 16px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-canvas);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .ref-table th.num,
+    .ref-table td.num {
+      text-align: right;
+    }
+
+    .ref-table td {
+      padding: 13px 16px;
+      font-size: 0.9375rem;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .ref-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .ref-table tbody tr:hover {
+      background: #f8fafc;
+    }
+
+    .ref-table td.strong-net {
+      font-weight: 700;
+      color: var(--accent-emerald-dark);
+    }
+
+    .try-rate-btn {
+      padding: 5px 10px;
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--accent-navy);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-hairline);
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    .try-rate-btn:hover {
+      background: var(--accent-navy);
+      color: #ffffff;
+    }
+
+    .try-rate-btn:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: 2px;
+    }
+
+    .table-footnote {
+      margin: 10px 0 0;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    /* How the Math Works Grid */
+    .math-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .math-article {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .math-article h3 {
+      margin: 0 0 8px;
+      font-size: 1.03125rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .math-article p {
+      margin: 0 0 10px;
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .math-article p:last-child {
+      margin-bottom: 0;
+    }
+
+    .formula-line {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.84375rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      background: var(--bg-canvas);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      margin: 12px 0;
+    }
+
+    /* FAQ Accordion */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 860px;
+    }
+
+    .faq-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+
+    .faq-item summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 20px;
+      font-size: 0.96875rem;
+      font-weight: 650;
+      color: var(--text-primary);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary:hover {
+      background: #f8fafc;
+    }
+
+    .faq-item summary:focus-visible {
+      outline: 2px solid var(--accent-emerald);
+      outline-offset: -2px;
+    }
+
+    .faq-chevron {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      color: var(--text-muted);
+      transition: transform var(--transition-fast);
+    }
+
+    .faq-item[open] .faq-chevron {
+      transform: rotate(180deg);
+      color: var(--accent-emerald);
+    }
+
+    .faq-answer {
+      padding: 0 20px 18px;
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.62;
+    }
+
+    .faq-answer p {
+      margin: 0;
+    }
+
+    /* Footer & Disclaimer */
+    .site-footer {
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-hairline);
+      padding: 28px 0 36px;
+      margin-top: 12px;
+    }
+
+    .disclaimer-text {
+      margin: 0 0 14px;
+      font-size: 0.84375rem;
+      color: var(--text-muted);
+      max-width: 82ch;
+      line-height: 1.6;
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--accent-navy);
+      color: #ffffff;
+      padding: 12px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem;
+      font-weight: 500;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.22);
+      opacity: 0;
+      transform: translateY(10px);
+      pointer-events: none;
+      transition: opacity 180ms ease, transform 180ms ease;
+      z-index: 50;
+    }
+
+    .toast.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 960px) {
+      .calculator-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .math-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .site-nav {
+        display: none;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      .page-intro {
+        padding: 18px 0 14px;
+      }
+
+      .field-row-2,
+      .field-row-state {
+        grid-template-columns: 1fr;
+      }
+
+      .spotlight-top {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .spotlight-annual {
+        text-align: left;
+      }
+
+      .form-actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        height: 44px;
+      }
+
+      input[type="number"],
+      select {
+        height: 44px;
+      }
+
+      .preset-btn {
+        height: 38px;
+        font-size: 0.75rem;
+      }
+
+      .toast {
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#calculator" class="skip-link">Skip to calculator</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#calculator" class="brand-mark">
+        <span class="brand-icon" aria-hidden="true">$</span>
+        <span>PaycheckClear</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Page sections">
+        <a href="#calculator">Calculator</a>
+        <a href="#wage-table">Wage Table</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a href="#wage-table" class="header-cta">Wage Reference</a>
+    </div>
+  </header>
+
+  <main id="calculator">
+    <div class="container">
+      <section class="page-intro" aria-labelledby="page-title">
+        <h1 id="page-title">Hourly to Salary Calculator After Taxes</h1>
+        <p class="intro-lead">
+          Use this 2026 US hourly to salary calculator after taxes to turn any hourly wage into real take-home pay in seconds. Built as a fast net pay estimator, it applies current federal tax brackets, FICA payroll taxes, state income tax, overtime, and pre-tax deductions so you can check your actual biweekly paycheck before taking an offer or planning a budget.
+        </p>
+      </section>
+
+      <section class="calculator-grid" aria-label="US Paycheck Calculator">
+        <!-- Left Column: Inputs -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Pay &amp; Tax Details</h2>
+            <span class="card-meta">2026 US Tax Year</span>
+          </div>
+
+          <form id="calcForm" class="form-stack" novalidate>
+            <!-- Hourly Wage -->
+            <div class="field-group">
+              <div class="field-label-row">
+                <label for="hourlyWage">Hourly Wage ($)</label>
+                <span class="field-hint" id="wageHint">$52,000 gross / yr</span>
+              </div>
+              <div class="input-wrap has-prefix has-suffix">
+                <span class="input-prefix" aria-hidden="true">$</span>
+                <input
+                  type="number"
+                  id="hourlyWage"
+                  name="hourlyWage"
+                  value="25"
+                  min="0"
+                  max="10000"
+                  step="0.25"
+                  inputmode="decimal"
+                  aria-describedby="wageHint"
+                >
+                <span class="input-suffix" aria-hidden="true">/hr</span>
+              </div>
+              <div class="preset-row" role="group" aria-label="Quick hourly wage presets">
+                <button type="button" class="preset-btn" data-wage="15" aria-pressed="false">$15/hr</button>
+                <button type="button" class="preset-btn" data-wage="20" aria-pressed="false">$20/hr</button>
+                <button type="button" class="preset-btn" data-wage="25" aria-pressed="true">$25/hr</button>
+                <button type="button" class="preset-btn" data-wage="35" aria-pressed="false">$35/hr</button>
+                <button type="button" class="preset-btn" data-wage="50" aria-pressed="false">$50/hr</button>
+              </div>
+            </div>
+
+            <!-- Hours & Weeks -->
+            <div class="field-row-2">
+              <div class="field-group">
+                <label for="hoursPerWeek">Hours / Week</label>
+                <div class="input-wrap has-suffix">
+                  <input
+                    type="number"
+                    id="hoursPerWeek"
+                    name="hoursPerWeek"
+                    value="40"
+                    min="0"
+                    max="168"
+                    step="0.5"
+                    inputmode="decimal"
+                  >
+                  <span class="input-suffix" aria-hidden="true">hrs</span>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <div class="field-label-row">
+                  <label for="weeksPerYear">Weeks / Year</label>
+                  <span class="field-hint" id="weeksHint">Full year</span>
+                </div>
+                <div class="input-wrap has-suffix">
+                  <input
+                    type="number"
+                    id="weeksPerYear"
+                    name="weeksPerYear"
+                    value="52"
+                    min="1"
+                    max="52"
+                    step="1"
+                    inputmode="numeric"
+                    aria-describedby="weeksHint"
+                  >
+                  <span class="input-suffix" aria-hidden="true">wks</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Overtime Toggle -->
+            <div class="overtime-panel">
+              <label class="toggle-label" for="overtimeToggle">
+                <span class="toggle-text">
+                  <span class="toggle-title">Include Overtime Hours (1.5&times; rate)</span>
+                  <span class="toggle-sub" id="overtimeRateLabel">Overtime rate: $37.50/hr</span>
+                </span>
+                <input
+                  type="checkbox"
+                  id="overtimeToggle"
+                  class="switch-input"
+                  aria-controls="overtimeFields"
+                  aria-expanded="false"
+                >
+              </label>
+
+              <div id="overtimeFields" class="overtime-fields" hidden>
+                <div class="field-group">
+                  <div class="field-label-row">
+                    <label for="overtimeHours">Overtime Hours / Week</label>
+                    <span class="field-hint" id="overtimeAnnualHint">+$0 / yr</span>
+                  </div>
+                  <div class="input-wrap has-suffix">
+                    <input
+                      type="number"
+                      id="overtimeHours"
+                      name="overtimeHours"
+                      value="5"
+                      min="0"
+                      max="100"
+                      step="0.5"
+                      inputmode="decimal"
+                    >
+                    <span class="input-suffix" aria-hidden="true">hrs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Filing Status -->
+            <div class="field-group">
+              <label for="filingStatus">Federal Filing Status</label>
+              <select id="filingStatus" name="filingStatus">
+                <option value="single" selected>Single ($16,100 standard deduction)</option>
+                <option value="married">Married Filing Jointly ($32,200 standard deduction)</option>
+                <option value="head">Head of Household ($24,150 standard deduction)</option>
+              </select>
+            </div>
+
+            <!-- State Tax Preset & Custom Rate -->
+            <div class="field-row-state">
+              <div class="field-group">
+                <label for="statePreset">State Income Tax</label>
+                <select id="statePreset" name="statePreset">
+                  <option value="4.5" selected>US Average (~4.5%)</option>
+                  <option value="0">No State Tax — TX, FL, WA, NV, TN (0%)</option>
+                  <option value="6.5">California — Est. Effective (~6.5%)</option>
+                  <option value="5.8">New York — Est. Effective (~5.8%)</option>
+                  <option value="4.95">Illinois — Flat (4.95%)</option>
+                  <option value="3.07">Pennsylvania — Flat (3.07%)</option>
+                  <option value="5.0">Massachusetts — Flat (5.0%)</option>
+                  <option value="3.99">North Carolina — Flat (3.99%)</option>
+                  <option value="5.19">Georgia — Flat (5.19%)</option>
+                  <option value="4.4">Colorado — Flat (4.4%)</option>
+                  <option value="5.2">Virginia — Est. Effective (~5.2%)</option>
+                  <option value="5.5">New Jersey — Est. Effective (~5.5%)</option>
+                  <option value="4.25">Michigan — Flat (4.25%)</option>
+                  <option value="3.5">Ohio — Est. Effective (~3.5%)</option>
+                  <option value="2.5">Arizona — Flat (2.5%)</option>
+                  <option value="8.2">Oregon — Est. Effective (~8.2%)</option>
+                  <option value="custom">Custom State Tax Rate (%)</option>
+                </select>
+              </div>
+
+              <div class="field-group">
+                <label for="stateTaxRate">Rate (%)</label>
+                <div class="input-wrap has-suffix-short">
+                  <input
+                    type="number"
+                    id="stateTaxRate"
+                    name="stateTaxRate"
+                    value="4.5"
+                    min="0"
+                    max="20"
+                    step="0.05"
+                    inputmode="decimal"
+                    aria-label="Custom state income tax rate percentage"
+                  >
+                  <span class="input-suffix" aria-hidden="true">%</span>
+                </div>
+              </div>
+            </div>
+
+            <hr class="form-divider">
+
+            <!-- Pre-Tax Deductions -->
+            <p class="optional-heading">
+              <span>Pre-Tax Deductions</span>
+              <span class="optional-tag">Optional</span>
+            </p>
+
+            <div class="field-row-2">
+              <div class="field-group">
+                <div class="field-label-row">
+                  <label for="k401Percent">401(k) Pre-Tax</label>
+                  <span class="field-hint" id="k401CapHint">Max $24,500/yr</span>
+                </div>
+                <div class="input-wrap has-suffix-short">
+                  <input
+                    type="number"
+                    id="k401Percent"
+                    name="k401Percent"
+                    value="0"
+                    min="0"
+                    max="100"
+                    step="0.5"
+                    inputmode="decimal"
+                  >
+                  <span class="input-suffix" aria-hidden="true">%</span>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <label for="healthMonthly">Health Insurance</label>
+                <div class="input-wrap has-prefix has-suffix">
+                  <span class="input-prefix" aria-hidden="true">$</span>
+                  <input
+                    type="number"
+                    id="healthMonthly"
+                    name="healthMonthly"
+                    value="0"
+                    min="0"
+                    max="5000"
+                    step="10"
+                    inputmode="decimal"
+                  >
+                  <span class="input-suffix" aria-hidden="true">/mo</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Utility Buttons -->
+            <div class="form-actions">
+              <button type="button" id="copyBtn" class="btn btn-primary">
+                Copy Results
+              </button>
+              <button type="button" id="resetBtn" class="btn btn-secondary">
+                Reset
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Column: Live Results Dashboard -->
+        <div class="card" aria-live="polite" aria-atomic="false">
+          <div class="card-header">
+            <h2 class="card-title">Estimated Take-Home Pay</h2>
+            <span class="card-meta" id="marginalBracketLabel">12% Federal Bracket</span>
+          </div>
+
+          <!-- Highlighted Biweekly Paycheck Spotlight -->
+          <div class="spotlight-box">
+            <div class="spotlight-top">
+              <div>
+                <p class="spotlight-label">Biweekly Paycheck (After Taxes)</p>
+                <p class="spotlight-value" id="biweeklyNetHero">$1,600.85</p>
+              </div>
+              <div class="spotlight-annual">
+                <p class="spotlight-annual-label">Net Annual Salary</p>
+                <p class="spotlight-annual-val" id="annualNetHero">$41,622</p>
+              </div>
+            </div>
+            <div class="spotlight-meta">
+              <span id="biweeklyGrossMeta">Gross biweekly: $2,000.00</span>
+              <span class="meta-sep" aria-hidden="true">&middot;</span>
+              <span id="effectiveTaxMeta">Effective tax rate: 19.96%</span>
+              <span class="meta-sep" aria-hidden="true">&middot;</span>
+              <span id="takeHomePctMeta">Keep 80.0% of gross</span>
+            </div>
+          </div>
+
+          <!-- Gross vs Net Pay Breakdown Table -->
+          <div class="table-caption-row">
+            <h3 class="section-subhead">Pay Period Breakdown</h3>
+            <span class="card-meta" id="hoursTotalLabel">2,080 hrs / yr</span>
+          </div>
+
+          <table class="pay-table" aria-label="Gross and net pay by period">
+            <thead>
+              <tr>
+                <th scope="col">Pay Period</th>
+                <th scope="col" class="num">Gross Pay</th>
+                <th scope="col" class="num">Net Pay (After Taxes)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Annual Salary</td>
+                <td class="num" id="grossAnnualCell">$52,000.00</td>
+                <td class="num net-col" id="netAnnualCell">$41,622.00</td>
+              </tr>
+              <tr>
+                <td>
+                  Monthly Pay
+                  <span class="period-note">12 pay periods / yr</span>
+                </td>
+                <td class="num" id="grossMonthlyCell">$4,333.33</td>
+                <td class="num net-col" id="netMonthlyCell">$3,468.50</td>
+              </tr>
+              <tr class="row-highlight">
+                <td>
+                  Biweekly Paycheck
+                  <span class="period-note">26 paychecks / yr</span>
+                </td>
+                <td class="num" id="grossBiweeklyCell">$2,000.00</td>
+                <td class="num net-col" id="netBiweeklyCell">$1,600.85</td>
+              </tr>
+              <tr>
+                <td>
+                  Weekly Pay
+                  <span class="period-note" id="weeklyPeriodNote">52 weeks / yr</span>
+                </td>
+                <td class="num" id="grossWeeklyCell">$1,000.00</td>
+                <td class="num net-col" id="netWeeklyCell">$800.42</td>
+              </tr>
+              <tr>
+                <td>
+                  Hourly Rate
+                  <span class="period-note">Effective take-home / hr</span>
+                </td>
+                <td class="num" id="grossHourlyCell">$25.00</td>
+                <td class="num net-col" id="netHourlyCell">$20.01</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Visual Tax Breakdown Stacked Bar -->
+          <div class="breakdown-section">
+            <div class="table-caption-row">
+              <h3 class="section-subhead">Where Your Gross Pay Goes</h3>
+              <span class="card-meta">Annual &amp; % of gross</span>
+            </div>
+
+            <div
+              class="stacked-bar"
+              role="img"
+              id="taxBarChart"
+              aria-label="Paycheck percentage breakdown bar"
+            >
+              <div class="bar-seg seg-net" id="barNet" style="width: 80.04%"></div>
+              <div class="bar-seg seg-fed" id="barFed" style="width: 7.81%"></div>
+              <div class="bar-seg seg-fica" id="barFica" style="width: 7.65%"></div>
+              <div class="bar-seg seg-state" id="barState" style="width: 4.50%"></div>
+              <div class="bar-seg seg-pretax" id="barPretax" style="width: 0%"></div>
+            </div>
+
+            <ul class="breakdown-list">
+              <li class="breakdown-item">
+                <div>
+                  <span class="breakdown-name">
+                    <span class="swatch seg-net" aria-hidden="true"></span>
+                    Take-Home Pay
+                  </span>
+                </div>
+                <span class="breakdown-pct" id="pctNet">80.0%</span>
+                <span class="breakdown-amt is-net" id="amtNet">$41,622</span>
+              </li>
+
+              <li class="breakdown-item">
+                <div>
+                  <span class="breakdown-name">
+                    <span class="swatch seg-fed" aria-hidden="true"></span>
+                    Federal Income Tax
+                  </span>
+                  <span class="breakdown-sub" id="subFed">$156.15 / biweekly</span>
+                </div>
+                <span class="breakdown-pct" id="pctFed">7.8%</span>
+                <span class="breakdown-amt" id="amtFed">$4,060</span>
+              </li>
+
+              <li class="breakdown-item">
+                <div>
+                  <span class="breakdown-name">
+                    <span class="swatch seg-fica" aria-hidden="true"></span>
+                    FICA (Social Security &amp; Medicare)
+                  </span>
+                  <span class="breakdown-sub" id="subFica">SS 6.2%: $3,224 &middot; Medicare 1.45%: $754</span>
+                </div>
+                <span class="breakdown-pct" id="pctFica">7.7%</span>
+                <span class="breakdown-amt" id="amtFica">$3,978</span>
+              </li>
+
+              <li class="breakdown-item">
+                <div>
+                  <span class="breakdown-name">
+                    <span class="swatch seg-state" aria-hidden="true"></span>
+                    State Income Tax
+                  </span>
+                  <span class="breakdown-sub" id="subState">$90.00 / biweekly at 4.5%</span>
+                </div>
+                <span class="breakdown-pct" id="pctState">4.5%</span>
+                <span class="breakdown-amt" id="amtState">$2,340</span>
+              </li>
+
+              <li class="breakdown-item" id="rowPretax" hidden>
+                <div>
+                  <span class="breakdown-name">
+                    <span class="swatch seg-pretax" aria-hidden="true"></span>
+                    Pre-Tax Deductions (401k &amp; Health)
+                  </span>
+                  <span class="breakdown-sub" id="subPretax">$0 / biweekly</span>
+                </div>
+                <span class="breakdown-pct" id="pctPretax">0.0%</span>
+                <span class="breakdown-amt" id="amtPretax">$0</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 1: Quick Reference Table -->
+      <section id="wage-table" class="content-section" aria-labelledby="wage-table-heading">
+        <h2 id="wage-table-heading">Hourly Wage to Annual Salary: US Quick Reference Table</h2>
+        <p class="section-lead">
+          Comparing job offers or negotiating a raise? Here is what common US hourly wages look like over a standard 40-hour workweek (2,080 hours/year) for a Single filer using 2026 federal tax brackets, 7.65% FICA, and a 4.5% average state tax rate. Select any row to load it into the biweekly paycheck calculator above.
+        </p>
+
+        <div class="table-scroll">
+          <table class="ref-table" aria-label="Common US hourly wages converted to annual salary and net biweekly paycheck">
+            <thead>
+              <tr>
+                <th scope="col">Hourly Wage</th>
+                <th scope="col" class="num">Gross Annual Salary</th>
+                <th scope="col" class="num">Est. Annual Taxes</th>
+                <th scope="col" class="num">Est. Net Annual</th>
+                <th scope="col" class="num">Est. Net Biweekly Paycheck</th>
+                <th scope="col" class="num">Load</th>
+              </tr>
+            </thead>
+            <tbody id="quickRefBody">
+              <!-- Populated deterministically from the 2026 calculation engine on load -->
+            </tbody>
+          </table>
+        </div>
+        <p class="table-footnote">
+          Assumes 40 hours/week, 52 weeks/year, Single filing status ($16,100 standard deduction), 4.5% effective state income tax, and $0 pre-tax deductions.
+        </p>
+      </section>
+
+      <!-- Section 2: How the Math Works -->
+      <section id="how-it-works" class="content-section" aria-labelledby="math-heading">
+        <h2 id="math-heading">How This Hourly to Salary Calculator After Taxes Works</h2>
+        <p class="section-lead">
+          Converting an hourly rate into a real paycheck takes two steps: finding your gross annual total, then subtracting mandatory payroll taxes and any pre-tax workplace benefits.
+        </p>
+
+        <div class="math-grid">
+          <article class="math-article">
+            <h3>1. The 2,080-Hour Rule</h3>
+            <p>
+              A standard full-time US schedule is 40 hours per week multiplied by 52 weeks per year, which equals 2,080 working hours. A fast mental shortcut is doubling your hourly rate and adding three zeros—so $25/hour is roughly $50,000 ($52,000 exact).
+            </p>
+            <div class="formula-line">Gross Annual = Wage &times; Hours/Wk &times; Weeks/Yr</div>
+            <p>
+              If you work regular overtime, those extra hours are multiplied by 1.5&times; your base rate under federal FLSA overtime rules and added directly to your annual gross pay.
+            </p>
+          </article>
+
+          <article class="math-article">
+            <h3>2. Federal Brackets &amp; Standard Deduction</h3>
+            <p>
+              You do not pay federal income tax on every dollar you earn. First, pre-tax deductions (like traditional 401(k) contributions and health premiums) plus your 2026 standard deduction ($16,100 Single, $32,200 Married Jointly, or $24,150 Head of Household) are subtracted.
+            </p>
+            <div class="formula-line">Taxable = Gross &minus; Pre-Tax &minus; Std. Deduction</div>
+            <p>
+              Only the remaining taxable income runs through the progressive 2026 brackets (10%, 12%, 22%, 24%, and up), which keeps your effective federal rate lower than your top tax bracket.
+            </p>
+          </article>
+
+          <article class="math-article">
+            <h3>3. FICA &amp; State Withholding</h3>
+            <p>
+              Every W-2 worker pays FICA payroll taxes: 6.2% for Social Security (capped at $184,500 in 2026 wages) and 1.45% for Medicare (plus 0.9% on wages over $200,000 Single or $250,000 Married). That totals 7.65% for most workers.
+            </p>
+            <div class="formula-line">Net Biweekly = (Gross &minus; Taxes &minus; Pre-Tax) &divide; 26</div>
+            <p>
+              State income tax depends on where you live—ranging from 0% in Texas, Florida, and Washington to progressive rates in California or New York. Dividing annual net pay by 26 gives your estimated biweekly paycheck.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section 3: Practical FAQ -->
+      <section id="faq" class="content-section" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <p class="section-lead">
+          Straightforward answers to common payroll and paycheck questions from US hourly workers and freelancers.
+        </p>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>
+              <span>How does unpaid vacation or time off affect my annual salary?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Unlike salaried employees with paid time off, hourly workers only earn money for hours worked unless PTO is explicitly included. Taking two unpaid weeks off drops your working year from 52 to 50 weeks—turning $25/hour from $52,000 into $50,000 gross. Changing the Weeks / Year field above adjusts both your total pay and your projected tax brackets.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Why is a biweekly paycheck different from a semi-monthly paycheck?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Biweekly payroll pays you every two weeks—usually every other Friday—which adds up to 26 paychecks a year (including two "three-paycheck months"). Semi-monthly payroll pays twice a month on fixed dates like the 1st and 15th, giving you 24 slightly larger checks. Your annual net income is the same, though budgeting monthly bills is often easier when you plan around two biweekly checks per month.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Does working overtime push all of my income into a higher tax bracket?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                No—earning overtime will never make your overall take-home pay go down. Only the dollars above a bracket cutoff are taxed at the higher rate. On a big overtime check, your employer's payroll system may withhold extra federal tax because it annualizes that single paycheck as if you earned it all year, but any over-withheld federal tax is refunded when you file your return.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>How do 401(k) contributions and health insurance change my net pay?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Traditional pre-tax 401(k) contributions lower your taxable income for federal and most state taxes (up to the $24,500 employee limit in 2026), though FICA still applies to those dollars. Pre-tax employer health insurance premiums reduce federal, state, and FICA taxable wages—so putting $200/month toward health coverage typically lowers your actual take-home pay by around $145 to $165 depending on your bracket.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Why might my actual paystub differ slightly from this net pay estimator?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Real paystubs can include local city taxes (such as NYC or Philadelphia), state disability or paid family leave withholdings, Roth post-tax retirement contributions, HSA/FSA deductions, union dues, or dependent credits claimed on Form W-4. This calculator gives a reliable planning baseline using standard 2026 W-2 withholding assumptions.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer-text">
+        <strong>Planning Estimate Disclaimer:</strong> Results from this hourly to salary calculator after taxes are for educational and budgeting purposes only and do not constitute official tax, accounting, or legal advice. Estimates reflect 2026 US federal income tax brackets, standard deductions, and FICA payroll tax rates for a single W-2 job; state rates represent simplified flat or estimated effective percentages. Consult a qualified CPA or your payroll department for official tax guidance.
+      </p>
+      <div class="footer-bottom">
+        <span>&copy; 2026 PaycheckClear</span>
+        <span>2026 US Federal &amp; FICA Tax Tables</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // 2026 US Federal Income Tax Constants (IRS Rev. Proc. 2025-32 / 2026 adjustments)
+      var TAX_YEAR = 2026;
+      var SS_RATE = 0.062;
+      var SS_WAGE_BASE = 184500;
+      var MEDICARE_RATE = 0.0145;
+      var ADDL_MEDICARE_RATE = 0.009;
+      var K401_LIMIT_2026 = 24500;
+
+      var STANDARD_DEDUCTION = {
+        single: 16100,
+        married: 32200,
+        head: 24150
+      };
+
+      var ADDL_MEDICARE_THRESHOLD = {
+        single: 200000,
+        married: 250000,
+        head: 200000
+      };
+
+      var FEDERAL_BRACKETS = {
+        single: [
+          { limit: 12400, rate: 0.10 },
+          { limit: 50400, rate: 0.12 },
+          { limit: 105700, rate: 0.22 },
+          { limit: 201775, rate: 0.24 },
+          { limit: 256225, rate: 0.32 },
+          { limit: 640600, rate: 0.35 },
+          { limit: Infinity, rate: 0.37 }
+        ],
+        married: [
+          { limit: 24800, rate: 0.10 },
+          { limit: 100800, rate: 0.12 },
+          { limit: 211400, rate: 0.22 },
+          { limit: 403550, rate: 0.24 },
+          { limit: 512450, rate: 0.32 },
+          { limit: 768700, rate: 0.35 },
+          { limit: Infinity, rate: 0.37 }
+        ],
+        head: [
+          { limit: 17700, rate: 0.10 },
+          { limit: 67450, rate: 0.12 },
+          { limit: 105700, rate: 0.22 },
+          { limit: 201750, rate: 0.24 },
+          { limit: 256200, rate: 0.32 },
+          { limit: 640600, rate: 0.35 },
+          { limit: Infinity, rate: 0.37 }
+        ]
+      };
+
+      var DEFAULTS = {
+        hourlyWage: 25,
+        hoursPerWeek: 40,
+        weeksPerYear: 52,
+        overtimeEnabled: false,
+        overtimeHours: 5,
+        filingStatus: 'single',
+        statePreset: '4.5',
+        stateTaxRate: 4.5,
+        k401Percent: 0,
+        healthMonthly: 0
+      };
+
+      function clampNum(val, min, max) {
+        var n = Number(val);
+        if (!Number.isFinite(n) || n < min) return min;
+        if (typeof max === 'number' && n > max) return max;
+        return n;
+      }
+
+      function computeFederalTax(taxableIncome, filingStatus) {
+        var brackets = FEDERAL_BRACKETS[filingStatus] || FEDERAL_BRACKETS.single;
+        if (taxableIncome <= 0) {
+          return { tax: 0, marginalRate: 0 };
+        }
+        var tax = 0;
+        var prevLimit = 0;
+        var marginalRate = brackets[0].rate;
+
+        for (var i = 0; i < brackets.length; i++) {
+          var b = brackets[i];
+          if (taxableIncome > prevLimit) {
+            var slice = Math.min(taxableIncome, b.limit) - prevLimit;
+            tax += slice * b.rate;
+            marginalRate = b.rate;
+            prevLimit = b.limit;
+          } else {
+            break;
+          }
+        }
+        return { tax: tax, marginalRate: marginalRate };
+      }
+
+      function calculatePaycheck(params) {
+        var hourlyWage = clampNum(params.hourlyWage, 0, 10000);
+        var hoursPerWeek = clampNum(params.hoursPerWeek, 0, 168);
+        var weeksPerYear = clampNum(params.weeksPerYear, 1, 52);
+        var overtimeEnabled = Boolean(params.overtimeEnabled);
+        var overtimeHours = overtimeEnabled ? clampNum(params.overtimeHours, 0, 100) : 0;
+        var filingStatus = STANDARD_DEDUCTION[params.filingStatus] ? params.filingStatus : 'single';
+        var stateTaxRate = clampNum(params.stateTaxRate, 0, 25);
+        var k401Percent = clampNum(params.k401Percent, 0, 100);
+        var healthMonthly = clampNum(params.healthMonthly, 0, 10000);
+
+        var regularAnnual = hourlyWage * hoursPerWeek * weeksPerYear;
+        var overtimeRate = hourlyWage * 1.5;
+        var overtimeAnnual = overtimeRate * overtimeHours * weeksPerYear;
+        var grossAnnual = regularAnnual + overtimeAnnual;
+        var totalHoursYear = (hoursPerWeek + overtimeHours) * weeksPerYear;
+
+        // Pre-tax deductions
+        var healthAnnual = Math.min(grossAnnual, healthMonthly * 12);
+        var raw401k = grossAnnual * (k401Percent / 100);
+        var k401Capped = raw401k > K401_LIMIT_2026;
+        var k401Annual = Math.min(Math.max(0, grossAnnual - healthAnnual), Math.min(raw401k, K401_LIMIT_2026));
+        var totalPreTax = healthAnnual + k401Annual;
+
+        // FICA (Section 125 health premiums are FICA-exempt; 401k is subject to FICA)
+        var ficaWages = Math.max(0, grossAnnual - healthAnnual);
+        var socialSecurityTax = Math.min(ficaWages, SS_WAGE_BASE) * SS_RATE;
+        var addlThreshold = ADDL_MEDICARE_THRESHOLD[filingStatus] || 200000;
+        var medicareTax = (ficaWages * MEDICARE_RATE) + (Math.max(0, ficaWages - addlThreshold) * ADDL_MEDICARE_RATE);
+        var ficaTax = socialSecurityTax + medicareTax;
+
+        // Federal Income Tax
+        var stdDeduction = STANDARD_DEDUCTION[filingStatus];
+        var fedTaxable = Math.max(0, grossAnnual - totalPreTax - stdDeduction);
+        var fedResult = computeFederalTax(fedTaxable, filingStatus);
+        var federalTax = fedResult.tax;
+
+        // State Income Tax
+        var stateTaxable = Math.max(0, grossAnnual - totalPreTax);
+        var stateTax = stateTaxable * (stateTaxRate / 100);
+
+        var totalTaxes = federalTax + ficaTax + stateTax;
+        var netAnnual = Math.max(0, grossAnnual - totalPreTax - totalTaxes);
+
+        var grossMonthly = grossAnnual / 12;
+        var netMonthly = netAnnual / 12;
+        var grossBiweekly = grossAnnual / 26;
+        var netBiweekly = netAnnual / 26;
+        var grossWeekly = grossAnnual / weeksPerYear;
+        var netWeekly = netAnnual / weeksPerYear;
+        var grossHourlyEffective = totalHoursYear > 0 ? grossAnnual / totalHoursYear : 0;
+        var netHourlyEffective = totalHoursYear > 0 ? netAnnual / totalHoursYear : 0;
+
+        var pctNet = grossAnnual > 0 ? (netAnnual / grossAnnual) * 100 : 0;
+        var pctFed = grossAnnual > 0 ? (federalTax / grossAnnual) * 100 : 0;
+        var pctFica = grossAnnual > 0 ? (ficaTax / grossAnnual) * 100 : 0;
+        var pctState = grossAnnual > 0 ? (stateTax / grossAnnual) * 100 : 0;
+        var pctPretax = grossAnnual > 0 ? (totalPreTax / grossAnnual) * 100 : 0;
+        var effectiveTaxRate = grossAnnual > 0 ? (totalTaxes / grossAnnual) * 100 : 0;
+
+        return {
+          hourlyWage: hourlyWage,
+          hoursPerWeek: hoursPerWeek,
+          weeksPerYear: weeksPerYear,
+          overtimeEnabled: overtimeEnabled,
+          overtimeHours: overtimeHours,
+          overtimeRate: overtimeRate,
+          overtimeAnnual: overtimeAnnual,
+          totalHoursYear: totalHoursYear,
+          filingStatus: filingStatus,
+          stateTaxRate: stateTaxRate,
+          grossAnnual: grossAnnual,
+          grossMonthly: grossMonthly,
+          grossBiweekly: grossBiweekly,
+          grossWeekly: grossWeekly,
+          grossHourlyEffective: grossHourlyEffective,
+          netAnnual: netAnnual,
+          netMonthly: netMonthly,
+          netBiweekly: netBiweekly,
+          netWeekly: netWeekly,
+          netHourlyEffective: netHourlyEffective,
+          federalTax: federalTax,
+          marginalRate: fedResult.marginalRate,
+          socialSecurityTax: socialSecurityTax,
+          medicareTax: medicareTax,
+          ficaTax: ficaTax,
+          stateTax: stateTax,
+          totalTaxes: totalTaxes,
+          healthAnnual: healthAnnual,
+          k401Annual: k401Annual,
+          k401Capped: k401Capped,
+          totalPreTax: totalPreTax,
+          pctNet: pctNet,
+          pctFed: pctFed,
+          pctFica: pctFica,
+          pctState: pctState,
+          pctPretax: pctPretax,
+          effectiveTaxRate: effectiveTaxRate
+        };
+      }
+
+      // Expose calculation engine cleanly for deterministic verification when loaded in Node/tests
+      if (typeof window !== 'undefined') {
+        window.__PAYCHECK_CALC__ = calculatePaycheck;
+      }
+      if (typeof document === 'undefined') {
+        return;
+      }
+
+      // Formatters
+      var fmtCurrencyCents = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+
+      var fmtCurrencyWhole = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      });
+
+      var fmtInt = new Intl.NumberFormat('en-US', {
+        maximumFractionDigits: 0
+      });
+
+      function fmtPct(val, decimals) {
+        return val.toFixed(decimals === undefined ? 1 : decimals) + '%';
+      }
+
+      // DOM Elements
+      var el = {
+        hourlyWage: document.getElementById('hourlyWage'),
+        hoursPerWeek: document.getElementById('hoursPerWeek'),
+        weeksPerYear: document.getElementById('weeksPerYear'),
+        overtimeToggle: document.getElementById('overtimeToggle'),
+        overtimeFields: document.getElementById('overtimeFields'),
+        overtimeHours: document.getElementById('overtimeHours'),
+        overtimeRateLabel: document.getElementById('overtimeRateLabel'),
+        overtimeAnnualHint: document.getElementById('overtimeAnnualHint'),
+        filingStatus: document.getElementById('filingStatus'),
+        statePreset: document.getElementById('statePreset'),
+        stateTaxRate: document.getElementById('stateTaxRate'),
+        k401Percent: document.getElementById('k401Percent'),
+        k401CapHint: document.getElementById('k401CapHint'),
+        healthMonthly: document.getElementById('healthMonthly'),
+        wageHint: document.getElementById('wageHint'),
+        weeksHint: document.getElementById('weeksHint'),
+        copyBtn: document.getElementById('copyBtn'),
+        resetBtn: document.getElementById('resetBtn'),
+        toast: document.getElementById('toast'),
+        presetBtns: Array.prototype.slice.call(document.querySelectorAll('.preset-btn')),
+        marginalBracketLabel: document.getElementById('marginalBracketLabel'),
+        biweeklyNetHero: document.getElementById('biweeklyNetHero'),
+        annualNetHero: document.getElementById('annualNetHero'),
+        biweeklyGrossMeta: document.getElementById('biweeklyGrossMeta'),
+        effectiveTaxMeta: document.getElementById('effectiveTaxMeta'),
+        takeHomePctMeta: document.getElementById('takeHomePctMeta'),
+        hoursTotalLabel: document.getElementById('hoursTotalLabel'),
+        weeklyPeriodNote: document.getElementById('weeklyPeriodNote'),
+        grossAnnualCell: document.getElementById('grossAnnualCell'),
+        netAnnualCell: document.getElementById('netAnnualCell'),
+        grossMonthlyCell: document.getElementById('grossMonthlyCell'),
+        netMonthlyCell: document.getElementById('netMonthlyCell'),
+        grossBiweeklyCell: document.getElementById('grossBiweeklyCell'),
+        netBiweeklyCell: document.getElementById('netBiweeklyCell'),
+        grossWeeklyCell: document.getElementById('grossWeeklyCell'),
+        netWeeklyCell: document.getElementById('netWeeklyCell'),
+        grossHourlyCell: document.getElementById('grossHourlyCell'),
+        netHourlyCell: document.getElementById('netHourlyCell'),
+        taxBarChart: document.getElementById('taxBarChart'),
+        barNet: document.getElementById('barNet'),
+        barFed: document.getElementById('barFed'),
+        barFica: document.getElementById('barFica'),
+        barState: document.getElementById('barState'),
+        barPretax: document.getElementById('barPretax'),
+        pctNet: document.getElementById('pctNet'),
+        amtNet: document.getElementById('amtNet'),
+        pctFed: document.getElementById('pctFed'),
+        amtFed: document.getElementById('amtFed'),
+        subFed: document.getElementById('subFed'),
+        pctFica: document.getElementById('pctFica'),
+        amtFica: document.getElementById('amtFica'),
+        subFica: document.getElementById('subFica'),
+        pctState: document.getElementById('pctState'),
+        amtState: document.getElementById('amtState'),
+        subState: document.getElementById('subState'),
+        rowPretax: document.getElementById('rowPretax'),
+        pctPretax: document.getElementById('pctPretax'),
+        amtPretax: document.getElementById('amtPretax'),
+        subPretax: document.getElementById('subPretax'),
+        quickRefBody: document.getElementById('quickRefBody')
+      };
+
+      var lastResult = null;
+      var toastTimer = null;
+
+      function readInputs() {
+        return {
+          hourlyWage: parseFloat(el.hourlyWage.value) || 0,
+          hoursPerWeek: parseFloat(el.hoursPerWeek.value) || 0,
+          weeksPerYear: parseInt(el.weeksPerYear.value, 10) || 52,
+          overtimeEnabled: el.overtimeToggle.checked,
+          overtimeHours: parseFloat(el.overtimeHours.value) || 0,
+          filingStatus: el.filingStatus.value,
+          stateTaxRate: parseFloat(el.stateTaxRate.value) || 0,
+          k401Percent: parseFloat(el.k401Percent.value) || 0,
+          healthMonthly: parseFloat(el.healthMonthly.value) || 0
+        };
+      }
+
+      function syncPresetButtons(wage) {
+        el.presetBtns.forEach(function (btn) {
+          var presetVal = parseFloat(btn.getAttribute('data-wage'));
+          btn.setAttribute('aria-pressed', String(Math.abs(wage - presetVal) < 0.001));
+        });
+      }
+
+      function render() {
+        var inputs = readInputs();
+        var res = calculatePaycheck(inputs);
+        lastResult = res;
+
+        syncPresetButtons(res.hourlyWage);
+
+        // Input helper hints
+        el.wageHint.textContent = fmtCurrencyWhole.format(res.grossAnnual) + ' gross / yr';
+        var unpaidWeeks = Math.max(0, 52 - res.weeksPerYear);
+        el.weeksHint.textContent = unpaidWeeks === 0
+          ? 'Full year'
+          : unpaidWeeks + (unpaidWeeks === 1 ? ' wk unpaid' : ' wks unpaid');
+
+        el.overtimeRateLabel.textContent = 'Overtime rate: ' + fmtCurrencyCents.format(res.overtimeRate) + '/hr';
+        el.overtimeAnnualHint.textContent = '+' + fmtCurrencyWhole.format(res.overtimeAnnual) + ' / yr';
+        el.k401CapHint.textContent = res.k401Capped
+          ? 'Capped at $24,500 IRS limit'
+          : 'Max $24,500/yr';
+
+        // Spotlight
+        el.marginalBracketLabel.textContent = res.marginalRate > 0
+          ? Math.round(res.marginalRate * 100) + '% Federal Bracket'
+          : '0% Federal Bracket';
+        el.biweeklyNetHero.textContent = fmtCurrencyCents.format(res.netBiweekly);
+        el.annualNetHero.textContent = fmtCurrencyWhole.format(res.netAnnual);
+        el.biweeklyGrossMeta.textContent = 'Gross biweekly: ' + fmtCurrencyCents.format(res.grossBiweekly);
+        el.effectiveTaxMeta.textContent = 'Effective tax rate: ' + fmtPct(res.effectiveTaxRate, 2);
+        el.takeHomePctMeta.textContent = 'Keep ' + fmtPct(res.pctNet, 1) + ' of gross';
+
+        // Pay Period Table
+        el.hoursTotalLabel.textContent = fmtInt.format(Math.round(res.totalHoursYear)) + ' hrs / yr';
+        el.weeklyPeriodNote.textContent = res.weeksPerYear + (res.weeksPerYear === 1 ? ' week / yr' : ' weeks / yr');
+
+        el.grossAnnualCell.textContent = fmtCurrencyCents.format(res.grossAnnual);
+        el.netAnnualCell.textContent = fmtCurrencyCents.format(res.netAnnual);
+        el.grossMonthlyCell.textContent = fmtCurrencyCents.format(res.grossMonthly);
+        el.netMonthlyCell.textContent = fmtCurrencyCents.format(res.netMonthly);
+        el.grossBiweeklyCell.textContent = fmtCurrencyCents.format(res.grossBiweekly);
+        el.netBiweeklyCell.textContent = fmtCurrencyCents.format(res.netBiweekly);
+        el.grossWeeklyCell.textContent = fmtCurrencyCents.format(res.grossWeekly);
+        el.netWeeklyCell.textContent = fmtCurrencyCents.format(res.netWeekly);
+        el.grossHourlyCell.textContent = fmtCurrencyCents.format(res.grossHourlyEffective);
+        el.netHourlyCell.textContent = fmtCurrencyCents.format(res.netHourlyEffective);
+
+        // Stacked Bar Chart
+        el.barNet.style.width = res.pctNet.toFixed(2) + '%';
+        el.barFed.style.width = res.pctFed.toFixed(2) + '%';
+        el.barFica.style.width = res.pctFica.toFixed(2) + '%';
+        el.barState.style.width = res.pctState.toFixed(2) + '%';
+        el.barPretax.style.width = res.pctPretax.toFixed(2) + '%';
+
+        el.taxBarChart.setAttribute(
+          'aria-label',
+          'Gross pay split: ' +
+          fmtPct(res.pctNet, 1) + ' take-home pay, ' +
+          fmtPct(res.pctFed, 1) + ' federal tax, ' +
+          fmtPct(res.pctFica, 1) + ' FICA, ' +
+          fmtPct(res.pctState, 1) + ' state tax' +
+          (res.totalPreTax > 0 ? ', ' + fmtPct(res.pctPretax, 1) + ' pre-tax deductions' : '')
+        );
+
+        // Breakdown Legend List
+        el.pctNet.textContent = fmtPct(res.pctNet, 1);
+        el.amtNet.textContent = fmtCurrencyWhole.format(res.netAnnual);
+
+        el.pctFed.textContent = fmtPct(res.pctFed, 1);
+        el.amtFed.textContent = fmtCurrencyWhole.format(res.federalTax);
+        el.subFed.textContent = fmtCurrencyCents.format(res.federalTax / 26) + ' / biweekly';
+
+        el.pctFica.textContent = fmtPct(res.pctFica, 1);
+        el.amtFica.textContent = fmtCurrencyWhole.format(res.ficaTax);
+        el.subFica.textContent = 'SS 6.2%: ' + fmtCurrencyWhole.format(res.socialSecurityTax) +
+          ' \u00b7 Medicare: ' + fmtCurrencyWhole.format(res.medicareTax);
+
+        el.pctState.textContent = fmtPct(res.pctState, 1);
+        el.amtState.textContent = fmtCurrencyWhole.format(res.stateTax);
+        el.subState.textContent = fmtCurrencyCents.format(res.stateTax / 26) + ' / biweekly at ' + res.stateTaxRate + '%';
+
+        if (res.totalPreTax > 0) {
+          el.rowPretax.hidden = false;
+          el.pctPretax.textContent = fmtPct(res.pctPretax, 1);
+          el.amtPretax.textContent = fmtCurrencyWhole.format(res.totalPreTax);
+          el.subPretax.textContent = '401(k): ' + fmtCurrencyWhole.format(res.k401Annual) +
+            ' \u00b7 Health: ' + fmtCurrencyWhole.format(res.healthAnnual);
+        } else {
+          el.rowPretax.hidden = true;
+        }
+      }
+
+      function buildQuickReferenceTable() {
+        var rates = [15, 20, 25, 30, 40, 50];
+        var frag = document.createDocumentFragment();
+
+        rates.forEach(function (rate) {
+          var r = calculatePaycheck({
+            hourlyWage: rate,
+            hoursPerWeek: 40,
+            weeksPerYear: 52,
+            overtimeEnabled: false,
+            overtimeHours: 0,
+            filingStatus: 'single',
+            stateTaxRate: 4.5,
+            k401Percent: 0,
+            healthMonthly: 0
+          });
+
+          var tr = document.createElement('tr');
+          tr.innerHTML =
+            '<td><strong>$' + rate + '.00 / hr</strong></td>' +
+            '<td class="num">' + fmtCurrencyWhole.format(r.grossAnnual) + '</td>' +
+            '<td class="num">' + fmtCurrencyWhole.format(r.totalTaxes) + '</td>' +
+            '<td class="num">' + fmtCurrencyWhole.format(r.netAnnual) + '</td>' +
+            '<td class="num strong-net">' + fmtCurrencyCents.format(r.netBiweekly) + '</td>' +
+            '<td class="num"><button type="button" class="try-rate-btn" data-load-wage="' + rate + '" aria-label="Load $' + rate + ' per hour into calculator">Calculate</button></td>';
+          frag.appendChild(tr);
+        });
+
+        el.quickRefBody.innerHTML = '';
+        el.quickRefBody.appendChild(frag);
+      }
+
+      function showToast(message) {
+        el.toast.textContent = message;
+        el.toast.classList.add('is-visible');
+        if (toastTimer) clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () {
+          el.toast.classList.remove('is-visible');
+        }, 2600);
+      }
+
+      function buildClipboardSummary(r) {
+        var statusMap = {
+          single: 'Single',
+          married: 'Married Filing Jointly',
+          head: 'Head of Household'
+        };
+        var lines = [
+          '2026 US Hourly to Salary Estimate (PaycheckClear)',
+          '---------------------------------------------',
+          'Wage: ' + fmtCurrencyCents.format(r.hourlyWage) + '/hr | ' + r.hoursPerWeek + ' hrs/wk' +
+            (r.overtimeEnabled && r.overtimeHours > 0 ? ' + ' + r.overtimeHours + ' OT hrs/wk (1.5x)' : '') +
+            ' | ' + r.weeksPerYear + ' wks/yr',
+          'Filing Status: ' + statusMap[r.filingStatus] + ' | State Tax: ' + r.stateTaxRate + '%',
+          '',
+          'Gross Annual Salary:   ' + fmtCurrencyCents.format(r.grossAnnual),
+          'Net Annual Take-Home:  ' + fmtCurrencyCents.format(r.netAnnual) + ' (' + fmtPct(r.pctNet, 1) + ')',
+          'Net Monthly Pay:       ' + fmtCurrencyCents.format(r.netMonthly),
+          'Net Biweekly Paycheck: ' + fmtCurrencyCents.format(r.netBiweekly),
+          'Net Weekly Pay:        ' + fmtCurrencyCents.format(r.netWeekly),
+          'Effective Net Hourly:  ' + fmtCurrencyCents.format(r.netHourlyEffective) + '/hr',
+          '',
+          'Annual Deductions:',
+          '- Federal Income Tax:  ' + fmtCurrencyCents.format(r.federalTax) + ' (' + fmtPct(r.pctFed, 1) + ')',
+          '- FICA (SS + Med):     ' + fmtCurrencyCents.format(r.ficaTax) + ' (' + fmtPct(r.pctFica, 1) + ')',
+          '- State Income Tax:    ' + fmtCurrencyCents.format(r.stateTax) + ' (' + fmtPct(r.pctState, 1) + ')'
+        ];
+        if (r.totalPreTax > 0) {
+          lines.push('- Pre-Tax Benefits:    ' + fmtCurrencyCents.format(r.totalPreTax) + ' (' + fmtPct(r.pctPretax, 1) + ')');
+        }
+        return lines.join('\n');
+      }
+
+      function copyResults() {
+        if (!lastResult) return;
+        var text = buildClipboardSummary(lastResult);
+
+        if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+          navigator.clipboard.writeText(text).then(function () {
+            showToast('Paycheck summary copied to clipboard');
+          }).catch(function () {
+            fallbackCopy(text);
+          });
+        } else {
+          fallbackCopy(text);
+        }
+      }
+
+      function fallbackCopy(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand('copy');
+          showToast('Paycheck summary copied to clipboard');
+        } catch (err) {
+          showToast('Unable to copy automatically');
+        }
+        document.body.removeChild(ta);
+      }
+
+      function resetCalculator() {
+        el.hourlyWage.value = String(DEFAULTS.hourlyWage);
+        el.hoursPerWeek.value = String(DEFAULTS.hoursPerWeek);
+        el.weeksPerYear.value = String(DEFAULTS.weeksPerYear);
+        el.overtimeToggle.checked = DEFAULTS.overtimeEnabled;
+        el.overtimeToggle.setAttribute('aria-expanded', 'false');
+        el.overtimeFields.hidden = true;
+        el.overtimeHours.value = String(DEFAULTS.overtimeHours);
+        el.filingStatus.value = DEFAULTS.filingStatus;
+        el.statePreset.value = DEFAULTS.statePreset;
+        el.stateTaxRate.value = String(DEFAULTS.stateTaxRate);
+        el.k401Percent.value = String(DEFAULTS.k401Percent);
+        el.healthMonthly.value = String(DEFAULTS.healthMonthly);
+        render();
+        showToast('Calculator reset to defaults');
+      }
+
+      // Event Listeners
+      [
+        el.hourlyWage,
+        el.hoursPerWeek,
+        el.weeksPerYear,
+        el.overtimeHours,
+        el.k401Percent,
+        el.healthMonthly
+      ].forEach(function (input) {
+        input.addEventListener('input', render);
+      });
+
+      el.filingStatus.addEventListener('change', render);
+
+      el.overtimeToggle.addEventListener('change', function () {
+        var isOn = el.overtimeToggle.checked;
+        el.overtimeFields.hidden = !isOn;
+        el.overtimeToggle.setAttribute('aria-expanded', String(isOn));
+        render();
+      });
+
+      el.statePreset.addEventListener('change', function () {
+        var val = el.statePreset.value;
+        if (val !== 'custom') {
+          el.stateTaxRate.value = val;
+        }
+        render();
+      });
+
+      el.stateTaxRate.addEventListener('input', function () {
+        var typed = el.stateTaxRate.value;
+        var matched = false;
+        for (var i = 0; i < el.statePreset.options.length; i++) {
+          var opt = el.statePreset.options[i];
+          if (opt.value !== 'custom' && parseFloat(opt.value) === parseFloat(typed)) {
+            el.statePreset.value = opt.value;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          el.statePreset.value = 'custom';
+        }
+        render();
+      });
+
+      el.presetBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          el.hourlyWage.value = btn.getAttribute('data-wage');
+          render();
+        });
+      });
+
+      el.quickRefBody.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-load-wage]');
+        if (!btn) return;
+        el.hourlyWage.value = btn.getAttribute('data-load-wage');
+        el.hoursPerWeek.value = '40';
+        el.weeksPerYear.value = '52';
+        el.overtimeToggle.checked = false;
+        el.overtimeToggle.setAttribute('aria-expanded', 'false');
+        el.overtimeFields.hidden = true;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        el.hourlyWage.focus();
+      });
+
+      el.copyBtn.addEventListener('click', copyResults);
+      el.resetBtn.addEventListener('click', resetCalculator);
+
+      // Prevent Enter key submitting form
+      document.getElementById('calcForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+      });
+
+      // Initialize
+      buildQuickReferenceTable();
+      render();
+    })();
+  </script>
+</body>
+</html>
